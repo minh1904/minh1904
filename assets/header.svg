@@ -7,10 +7,17 @@
     .role  { font-size: 12px; font-weight: 500; letter-spacing: 2.6px; fill: #59636E; }
     .avail { font-size: 11px; fill: #59636E; }
     .rule  { stroke: #E1E4E8; stroke-width: 1; }
+    .scribble { stroke: #0D1117; stroke-width: 2.6; stroke-linecap: round; fill: none; opacity: .26;
+                stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1s ease-out .35s forwards; }
+    .scribble.pass2 { stroke-width: 1.9; opacity: .16; animation-delay: .62s; animation-duration: .8s; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
     .dot   { fill: #2DA44E; }
     .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: 3.5px 3.5px; }
     @keyframes p { 0%, 100% { opacity: .35; transform: scale(1) } 50% { opacity: .12; transform: scale(2.6) } }
-    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; opacity: 0 }
+      .scribble { animation: none; stroke-dashoffset: 0 }
+    }
     @media (prefers-color-scheme: dark) {
       .name  { fill: #E6EDF3; }
       .place { fill: #6E7681; }
@@ -18,10 +25,14 @@
       .avail { fill: #8B949E; }
       .rule  { stroke: #21262D; }
       .dot   { fill: #3FB950; }
+      .scribble { stroke: #E6EDF3; opacity: .30; }
+      .scribble.pass2 { opacity: .18; }
     }
   </style>
 
   <text class="name"  x="0"   y="44">Văn Minh</text>
+  <path class="scribble"       pathLength="1" d="M 2 53.5 C 26 50.8, 58 55.2, 88 51.6 C 112 48.9, 130 54.1, 143 51.2"/>
+  <path class="scribble pass2" pathLength="1" d="M 7 57.4 C 34 55.1, 66 58.9, 97 55.4 C 118 53.1, 132 57.2, 139 55.6"/>
   <text class="mono place" x="920" y="42" text-anchor="end">HANOI, VN  ·  GMT+7</text>
 
   <text class="mono role" x="1" y="76">FRONTEND ENGINEER</text>
