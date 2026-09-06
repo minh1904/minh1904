@@ -9,7 +9,7 @@
     .rule  { stroke: #E1E4E8; stroke-width: 1; }
     .dot   { fill: #2DA44E; }
     .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: 3.5px 3.5px; }
-    @keyframes p { 0%, 100% { opacity: .35; transform: scale(1) } 50% { opacity: .12; transform: scale(2.6) } }
+    @keyframes p { 0%, 100% { opacity: .35; transform: scale(1) } 50% { opacity: .12; transform: scale(2.2) } }
     @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0 } }
     @media (prefers-color-scheme: dark) {
       .hello { fill: #E6EDF3; }
@@ -26,7 +26,7 @@
 
   <text class="mono role" x="1" y="76">FRONTEND ENGINEER</text>
 
-  <g transform="translate(0, 100)">
+  <g transform="translate(9, 100)">
     <circle class="dot pulse" cx="3.5" cy="3.5" r="3.5"/>
     <circle class="dot"       cx="3.5" cy="3.5" r="3.5"/>
     <text class="mono avail" x="16" y="7.5">Available for freelance &amp; part-time</text>
