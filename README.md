@@ -8,7 +8,7 @@
     · branch `output`       ← Platane/snk              (workflow: Contribution snake)
   Không nhúng thẻ từ service công cộng nào -> không bao giờ vỡ ảnh vì rate limit.
 
-  Cần sửa tay: bảng Selected work (REPO_1/2/3) và link ở mục Elsewhere.
+  Cần sửa tay: mục Selected work (đang để "coming soon") và link ở mục Elsewhere.
 -->
 
 <img src="./assets/header.svg" alt="Văn Minh — Frontend Engineer · Hanoi, VN · available for freelance & part-time" width="100%" />
@@ -18,11 +18,7 @@ dùng được bằng bàn phím. Hiện tập trung vào design system và web 
 
 ## <sub>01 — SELECTED WORK</sub>
 
-| <sub>PROJECT</sub> | <sub>STACK</sub> | <sub>YEAR</sub> | <sub>RESULT</sub> |
-| :--- | :--- | :--- | ---: |
-| **[Project One](https://github.com/minh1904/REPO_1)** ↗ | `Next.js · TypeScript · Tailwind` | 2025 | LCP 0.9s on 3G |
-| **[Project Two](https://github.com/minh1904/REPO_2)** ↗ | `React · Zustand · TanStack Query` | 2025 | 12k monthly users |
-| **[Project Three](https://github.com/minh1904/REPO_3)** ↗ | `NestJS · Prisma · PostgreSQL` | 2024 | Realtime API + auth |
+<sub>**Coming soon** — đang dọn repo để public. Quay lại sau nhé.</sub>
 
 ## <sub>02 — STACK</sub>
 
