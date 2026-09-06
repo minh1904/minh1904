@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140" fill="none" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <clipPath id="fc"><rect width="1000" height="140" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: "SFMono-Regular","JetBrains Mono",Consolas,Menlo,monospace; }
+      @media (prefers-reduced-motion: reduce) { animate, animateTransform { display: none } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#fc)">
+    <rect width="1000" height="140" fill="#0B1020"/>
+
+    <path fill="url(#w2)" fill-opacity="0.30"
+      d="M0 92 C 140 58, 260 126, 400 92 C 540 58, 660 126, 800 92 C 900 68, 960 82, 1000 92 L1000 140 L0 140 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -60 6; 0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+
+    <path fill="url(#w1)" fill-opacity="0.62"
+      d="M0 104 C 150 78, 250 136, 420 106 C 580 78, 700 136, 850 106 C 930 90, 970 98, 1000 104 L1000 140 L0 140 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 60 -6; 0 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <text class="mono" x="500" y="52" text-anchor="middle" font-size="14" fill="#8B93BF" letter-spacing="3">
+      THANKS FOR SCROLLING
+    </text>
+    <text class="mono" x="500" y="76" text-anchor="middle" font-size="12" fill="#4B5578" letter-spacing="1.5">
+      &lt;/&gt; with ☕ and way too many re-renders
+    </text>
+  </g>
+</svg>
