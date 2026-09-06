@@ -12,7 +12,7 @@
   Edit by hand: the Selected work section (currently "coming soon") and the Elsewhere links.
 -->
 
-<img src="./assets/header.svg" alt="Văn Minh — Frontend Engineer · Hanoi, VN · available for freelance & part-time" width="100%" />
+<img src="./assets/header.svg" alt="Hello World, I&#39;m Van Minh — Frontend Engineer · Hanoi, VN · available for freelance &amp; part-time" width="100%" />
 
 I build interfaces with React and TypeScript. Two things pull at me equally: the creative
 side — motion, canvas, the layout that has no business working — and design systems, which is
