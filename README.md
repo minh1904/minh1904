@@ -1,26 +1,28 @@
 <!--
   minh1904 — GitHub profile README
   ────────────────────────────────
-  Design gốc: Figma "README · Light" (file Untitled, cạnh Wireframe - 1).
+  Design source: Figma artboard "README · Light" (file Untitled, next to Wireframe - 1).
 
-  Mọi thứ "động" đều do GitHub Actions render thành file tĩnh trong repo này:
+  Everything dynamic is rendered by GitHub Actions into static files in this repo:
     · assets/activity.svg   ← scripts/gen-activity.js  (workflow: Activity stats)
     · branch `output`       ← Platane/snk              (workflow: Contribution snake)
-  Không nhúng thẻ từ service công cộng nào -> không bao giờ vỡ ảnh vì rate limit.
+  No third-party card services are embedded, so nothing breaks on rate limits.
 
-  Cần sửa tay: mục Selected work (đang để "coming soon") và link ở mục Elsewhere.
+  Edit by hand: the Selected work section (currently "coming soon") and the Elsewhere links.
 -->
 
 <img src="./assets/header.svg" alt="Văn Minh — Frontend Engineer · Hanoi, VN · available for freelance & part-time" width="100%" />
 
-Mình xây giao diện web — từ file Figma ra sản phẩm chạy được: gõ đúng kiểu, tải dưới một giây,
-dùng được bằng bàn phím. Hiện tập trung vào design system và web performance.
+I build interfaces with React and TypeScript, and spend most of my time on the unglamorous
+half of the job — loading states, focus rings, the 200KB nobody notices until it's gone.
 
-## <sub>01 — SELECTED WORK</sub>
+Right now I'm deep in design systems, and in making pages feel instant on a bad connection.
 
-<sub>**Coming soon** — đang dọn repo để public. Quay lại sau nhé.</sub>
+## <sub>SELECTED WORK</sub>
 
-## <sub>02 — STACK</sub>
+<sub>**Coming soon** — cleaning up a few repos before they go public.</sub>
+
+## <sub>STACK</sub>
 
 `CORE`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React · Next.js · TypeScript · Tailwind CSS · Sass · Vite
 
@@ -28,7 +30,7 @@ dùng được bằng bàn phím. Hiện tập trung vào design system và web 
 
 `BACKEND / OPS`&nbsp;&nbsp;Node.js · NestJS · Prisma · PostgreSQL · Docker · GitHub Actions
 
-## <sub>03 — ACTIVITY</sub>
+## <sub>ACTIVITY</sub>
 
 <img src="./assets/activity.svg" alt="Contribution stats" width="100%" />
 
@@ -38,7 +40,7 @@ dùng được bằng bàn phím. Hiện tập trung vào design system và web 
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/minh1904/minh1904/output/snake.gif" width="100%" />
 </picture>
 
-## <sub>04 — ELSEWHERE</sub>
+## <sub>ELSEWHERE</sub>
 
 [Portfolio ↗](https://github.com/minh1904)&nbsp;&nbsp;&nbsp;&nbsp;
 [GitHub ↗](https://github.com/minh1904)&nbsp;&nbsp;&nbsp;&nbsp;
