@@ -24,7 +24,7 @@ what turns the good ideas into something a whole team can ship twice.
 
 ## <sub>STACK</sub>
 
-<img src="./assets/stack.svg" alt="React, Next.js, TypeScript, Tailwind, Framer Motion, Redux, TanStack Query, Zustand, Zod, Node.js, NestJS, Prisma, PostgreSQL, Docker, Figma and other tools" width="100%" />
+<img src="./assets/stack.svg" alt="React, Next.js, TypeScript, Tailwind, Three.js, GSAP, Anime.js, Motion, TanStack Query, Zod, NestJS, Prisma, Supabase, Docker, Figma and other tools" width="100%" />
 
 ## <sub>ACTIVITY</sub>
 
