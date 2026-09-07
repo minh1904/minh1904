@@ -64,8 +64,6 @@ what turns the good ideas into something a whole team can ship twice.
 
 <img src="./assets/activity.svg" alt="Contribution stats" width="100%" />
 
-<img src="https://komarev.com/ghpvc/?username=minh1904&amp;label=profile%20views&amp;color=59636E&amp;style=flat" alt="Profile views" height="20" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/minh1904/minh1904/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/minh1904/minh1904/output/snake-light.svg" />
@@ -80,4 +78,6 @@ what turns the good ideas into something a whole team can ship twice.
 [Email ↗](mailto:110233275+minh1904@users.noreply.github.com)
 
 <br/>
+
+<img src="https://komarev.com/ghpvc/?username=minh1904&amp;label=profile%20views&amp;color=59636E&amp;style=flat" alt="Profile views" height="20" />
 
