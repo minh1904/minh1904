@@ -1,5 +1,5 @@
 - 🔭 I'm a Frontend Developer growing toward frontend architecture: scalable systems, design systems, and clean patterns that hold up in production.
 - 🎨 On the side, I'm exploring creative development: WebGL, shaders, and motion that make the web feel alive.
 - 🌱 Currently learning Three.js / R3F, GSAP, and Lenis.
-- 💬 Ask me about React, Next.js, TypeScript, Tailwind CSS, XState, and Web Audio API, or just ask how my day is going.
+- 💬 Ask me about React, Next.js, TypeScript, Tailwind CSS or just ask how my day is going.
 - 📫 How to reach me: [itsvminh@gmail.com](mailto:itsvminh@gmail.com) or [LinkedIn](https://www.linkedin.com/in/itsvminh/)
